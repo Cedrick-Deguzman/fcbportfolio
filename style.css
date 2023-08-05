@@ -1,0 +1,61 @@
+/*
+	Syntax for CSS 
+	selector {
+		property: value;
+	}
+*/
+
+* {
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+h1, p {
+	font-family: "Monserrat", sans-serif;
+}
+
+body {
+	background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+}
+
+#landing {
+	height: 80vh;
+	/*center the contents vertically using flexbox*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/*
+.navigation {
+	display: flex;
+	background-color: black;
+}
+li {
+	font-size: 30px;
+	list-style: none;
+	padding: 10px;
+}
+.navigation li a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+#landing {
+	display: flex;
+	flex-direction: column;
+}*/
+
+#profile {
+	width: 100%;
+	max-width: 280px;
+	max-height: 280px;
+	border-radius: 50%;
+	/*margin: 50px;*/
+}
